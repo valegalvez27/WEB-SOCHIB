@@ -1,0 +1,20 @@
+{
+  "name": "web-sochib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.htm",
+  "scripts": {
+    "start": "http-server ./ -a localhost -p 8000 -c-1",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valegalvez27/WEB-SOCHIB.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valegalvez27/WEB-SOCHIB/issues"
+  },
+  "homepage": "https://github.com/valegalvez27/WEB-SOCHIB#readme"
+}
