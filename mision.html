@@ -2,7 +2,7 @@
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en"> <!--<![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html class="not-ie" lang="en" ng-app="sochib"> <!--<![endif]-->
 <!--
 	ucorpora by freshdesignweb.com
 	Twitter: https://twitter.com/freshdesignweb
@@ -11,7 +11,7 @@
 <head>
 	<!-- Basic Meta Tags -->
   <meta charset="utf-8">
-  <title>Ucorpora About US</title>
+  <title>Nosotros</title>
 	<meta name="description" content="ucorpora about us - Free Business Corporate HTML Template">
 	<meta name="keywords" content="ucorpora, ucorpora about, theme, template, corporate, clean, modern, bootstrap, creative, design">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,6 +35,8 @@
 
   <!-- FlexSlider Style -->
   <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
+  <script src="js/angular.min.js"></script>
+  <script src="app.js"></script>
 
 	<!-- Internet Explorer condition - HTML5 shim, for IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -47,7 +49,7 @@
     <div class="container">
       <div class="row t-container">
 
-        <div ng-include src="'header.html'"></div><!-- Header End -->
+      <div ng-include src="'header.html'"></div>
 
 <!-- Titlebar
 ================================================== -->
@@ -63,9 +65,9 @@
 			<nav id="breadcrumbs">
 				<ul>
 					<li>Usted está aquí:</li>
-          <li><a href="#">Inicio</a></li>
+					<li><a href="#">Inicio</a></li>
           <li><a href="#">Nosotros</a></li>
-          <li>Visión</li>
+					<li>Misión</li>
 				</ul>
 			</nav>
 		</div>
@@ -80,14 +82,17 @@
 
       <div class="row">
         <div class="span12">
-          <h4>Visión</h4>
-          <ul style="text-align:justify; max-width: 67%"> 
-          <li> Aportar y dar solución a problemas existentes en el área de la salud mediante desarrollo de la disciplina a nivel nacional. </li> 
-          <li> Representar a la disciplina ante instituciones nacionales e internacionales.</li>
-          <li> Compartir conocimiento, experiencia, y promover la cooperación sobre el área entre sus miembros con otras agrupaciones similares, nacionales e internacionales, mediante actividades diversas como la participación activa de foros, congresos, reuniones, etc. </li>
-          <li> Fomentar programas de investigación, desarrollo, docencia y de perfeccionamiento en las áreas básicas y aplicadas de su competencia, especialmente aquéllas orientadas a satisfacer necesidades nacionales y las publicaciones que se lleven a cabo desde la misma sociedad.</li>
-          <li> Divulgar los conocimientos abordados mediante conferencias, artículos de prensa, o a través de cualquier otro medio de difusión que se estime idóneo.</li>
-          </ul> 
+          <h4>Misión</h4>
+          <p> La Sociedad Chilena de Ingeniería Biomédica busca ser el ente representante ante el Estado, Estamentos Políticos-Técnicos e Instituciones Internacionales que proyecten nuestro quehacer. Fomentar y potenciar los vínculos entre socios y actores principales en el Sector Salud Nacional. Además de fortalecer y posicionar a la Ingeniería Biomédica en Chile como una profesión fundamental en el área Salud para mejorar de manera sustantiva la atención que reciben los pacientes y así obtener una mejor calidad de vida para los Chilenos y Chilenas.</p>   
+        
+          
+
+          <div class="row space10"></div>  
+
+          <div class="row">   
+            
+  
+           
           </div> 
                                    
           <div class="row space50"></div>  
