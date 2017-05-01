@@ -1,0 +1,58 @@
+    <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="span5">
+        <h3>Contacto</h3>
+        <div>         
+          <form class="form-main" name="ajax-form" id="ajax-form" action="#" method="post">
+            <div id="ajaxsuccess">E-mail enviado exitosamente.</div> 
+            <div class="error" id="err-name">Por favor, ingrese nombre</div>
+            <input name="name" id="name" type="text" value="Nombre" onfocus="if(this.value == 'Nombre') this.value='';" onblur="if(this.value == '') this.value='Nombre';">
+            
+            <div class="error" id="err-email">Por favor, ingrese e-mail</div>
+		        <div class="error" id="err-emailvld">E-mail inválido</div>
+            <input  name="email" id="email" type="text" value="E-mail" onfocus="if(this.value == 'E-mail') this.value='';" onblur="if(this.value == '') this.value='E-mail';">
+
+            <div class="error" id="err-message">Por favor ingrese mensaje</div>
+            <textarea  name="message" id="message" onfocus="if(this.value == 'Mensaje') this.value='';" onblur="if(this.value == '') this.value='Mensaje';">Mensaje</textarea><br>
+            <div>
+            	<div class="error" id="err-form"> Error 500, por favor contacte al administrador</div>
+            	<div class="error" id="err-timedout">Lo sentimos, el servidor tardó demasiado en responder</div>
+            	<div class="error" id="err-state"></div>
+            </div>
+            <button id="send" class="btn f-right">Enviar Mensaje<i class="icon-ok"></i></button>
+          </form>
+        </div>
+        </div>
+        <div class="span3 offset3">
+          <h3>Dirección</h3>
+          Uruguay 878<br>
+          Valparaíso<br>
+          Chile<br>
+          <br>
+
+          <i class="icon-envelope"></i><a href="mailto:support@example.com">support@example.com</a><br>
+          <i class="icon-home"></i><a href="#">www.sochib.cl</a>
+          
+          <div class="row space40"></div>  
+
+      </div>
+      
+      <div class="row space50"></div>
+      <div class="row">
+        <div class="span6">
+          <div class="logo-footer">
+            Design by <a href="https://www.freshdesignweb.com">freshDesignweb</a>
+          </div>                       
+        </div>
+        <div class="span6 right">
+          &copy; 2020. All rights reserved.
+        </div>
+      </div>
+
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  

@@ -115,7 +115,7 @@ img {
 	float:left;
 }
 .blue{
-  color:#fda056;
+  color:#313ef7;
 }
 
 .blue2{
@@ -123,7 +123,7 @@ img {
 }
 
 .blue-dark{
-  color:#fb8865;
+  color:#2622aa;
 }
 
 .bold {
@@ -355,12 +355,12 @@ header {
 					}
 						#nav > ul > li:not( :last-child ) > a
 						{
-							border-right: 1px solid #cc470d;
+							border-right: 1px solid #efa585;
 						}
 						#nav > ul > li:hover > a,
 						#nav > ul:not( :hover ) > li.active > a
 						{
-							background-color: #cc470d;
+							background-color:#0437d1;
 						}
 
 
@@ -368,7 +368,7 @@ header {
 
 				#nav li ul
 				{
-					background-color: #cc470d;
+					background-color: #e15a1f;
 					display: none;
 					position: absolute;
 					top: 100%;
@@ -482,7 +482,7 @@ header {
 						#nav > ul > li:not( :last-child ) > a
 						{
 							border-right: none;
-							border-bottom: 1px solid #cc470d;
+							border-bottom: 1px solid #efa585;
 						}
 
 
