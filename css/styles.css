@@ -317,7 +317,7 @@ header {
 				}
 				#nav li a:active
 				{
-					background-color: #c00 !important;
+					background-color: #000366 !important;
 				}
 
 			#nav span:after
@@ -326,7 +326,7 @@ header {
 				height: 0;
 				border: 0.313em solid transparent; /* 5 */
 				border-bottom: none;
-				border-top-color: #efa585;
+				border-top-color: #000;
 				content: '';
 				vertical-align: middle;
 				display: inline-block;
@@ -338,7 +338,7 @@ header {
 
 			#nav > ul
 			{
-				background-color: #e15a1f;
+				background-color: #0437d1;
 			}
 				#nav > ul > li
 				{
@@ -355,12 +355,12 @@ header {
 					}
 						#nav > ul > li:not( :last-child ) > a
 						{
-							border-right: 1px solid #efa585;
+							border-right: 1px solid #030ad1;
 						}
 						#nav > ul > li:hover > a,
 						#nav > ul:not( :hover ) > li.active > a
 						{
-							background-color:#0437d1;
+							background-color:#0107a3;
 						}
 
 
@@ -368,7 +368,7 @@ header {
 
 				#nav li ul
 				{
-					background-color: #e15a1f;
+					background-color: #030ad1;
 					display: none;
 					position: absolute;
 					top: 100%;
@@ -387,13 +387,13 @@ header {
 						}
 						#nav li ul a
 						{
-							border-top: 1px solid #e15a1f;
+							border-top: 1px solid #0107a3;
 							padding: 5px; /* 15 (20) */
 						}
 							#nav li ul li a:hover,
 							#nav li ul:not( :hover ) li.active a
 							{
-								background-color: #e15a1f;
+								background-color: #0107a3;
 							}
 
 
@@ -429,7 +429,7 @@ header {
 					height: 3.125em; /* 50 */
 					text-align: left;
 					text-indent: -9999px;
-					background-color: #e15a1f;
+					background-color: #000366;
 					position: relative;
 				}
 					#nav > a:before,
@@ -482,7 +482,7 @@ header {
 						#nav > ul > li:not( :last-child ) > a
 						{
 							border-right: none;
-							border-bottom: 1px solid #efa585;
+							border-bottom: 1px solid #000366;
 						}
 
 
