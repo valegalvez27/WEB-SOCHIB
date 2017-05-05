@@ -953,7 +953,7 @@ table a:hover{
   text-align:center;
   font-size:13px;
   color:#fff;
-  background:#fda056;
+  background:#567cfd;
   float:right;
   margin-bottom:5px;
   margin-right:1px;
@@ -961,7 +961,7 @@ table a:hover{
 
 .paging:hover {
   color:#fff;
-  background:#101d35;
+  background:#0344bc;
   text-decoration:none;
 }
 
@@ -1248,7 +1248,7 @@ table a:hover{
     margin:0px;
     border:0px;
   	color:#fff;
-	background: #fda056;
+	background: #5693fd;
   }
  
   #portfolio-filter li:hover a {
@@ -1259,7 +1259,7 @@ table a:hover{
     
   #portfolio-filter li.active a {
     color:#fff;
-    background: #fb8865;
+    background: #6469fa;
   }
 
 	/* --------------------------------------------------------	*/
