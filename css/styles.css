@@ -1526,3 +1526,36 @@ table a:hover{
 .social-network.yelp:hover,.active .social-network.yelp{ background-position: -1104px -24px}
 .social-network.youtube:hover,.active .social-network.youtube{ background-position: -1128px -24px}
 .social-network.zerply:hover,.active .social-network.zerply{ background-position: -1152px -24px}
+
+
+
+/* Custom cosas */
+@media only screen and (max-width: 991px) { /* xs */
+  .imagenes {
+    max-width: 18%;
+    margin-right: 1%;
+    margin-top: 5%;
+  }
+  .imagen-coral {
+    max-width: 18%;
+    margin-right: 1%;
+    float: left;
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: 992px) { /* lg */
+  .imagenes {
+    max-width: 18%;
+    margin-right: 1%;
+    float: left;
+    display: inline-block;
+    margin-top: 5%;
+  }
+  .imagen-coral {
+    max-width: 18%;
+    margin-right: 1%;
+    float: left;
+    display: inline-block;
+  }
+}
