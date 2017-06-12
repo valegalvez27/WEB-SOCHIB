@@ -1541,6 +1541,16 @@ table a:hover{
     margin-right: 1%;
     float: left;
     display: inline-block;
+
+  }
+  .logo-header {
+    max-width: 30%;
+    display: block;
+    margin-right: 90%;
+  }
+
+  .texto-sitios {
+    font-size: 24px;
   }
 }
 
@@ -1557,5 +1567,11 @@ table a:hover{
     margin-right: 1%;
     float: left;
     display: inline-block;
+
+  }
+
+  .logo-header {
+    max-width: 60%;
+    margin-left:10%;
   }
 }
