@@ -1530,7 +1530,7 @@ table a:hover{
 
 
 /* Custom cosas */
-@media only screen and (max-width: 991px) { /* xs */
+@media only screen and (max-width: 764px) { /* xs */
   .imagenes {
     max-width: 18%;
     margin-right: 1%;
@@ -1554,7 +1554,7 @@ table a:hover{
   }
 }
 
-@media only screen and (min-width: 992px) { /* lg */
+@media only screen and (min-width: 765px) { /* lg */
   .imagenes {
     max-width: 18%;
     margin-right: 1%;
