@@ -34,11 +34,11 @@ angular.
       newsPromise.then(function(response) {
         var max = response.data.ultima;
         console.log("ultima noticia: "+max);
-        var firstN = (max - ( (page - 1) * 10 ) );
+        var firstN = (max - ( (page - 1) * 3 ) );
         return max;
       }).then(function(n) {
         var j = n;
-        for(i=0;i<=10;i++){
+        for(i=0;i<=2;i++){
         self.newsPr.push(getNoticia(j));
         j--;
         

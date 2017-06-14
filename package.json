@@ -16,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/valegalvez27/WEB-SOCHIB/issues"
   },
-  "homepage": "https://github.com/valegalvez27/WEB-SOCHIB#readme"
+  "homepage": "https://github.com/valegalvez27/WEB-SOCHIB#readme",
+  "dependencies": {}
 }

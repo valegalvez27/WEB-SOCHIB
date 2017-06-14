@@ -49,6 +49,8 @@
     <div class="container">
       <div class="row t-container">
 <div ng-include src="'header.html'"></div>
+</div>
+
 <!-- Titlebar
 ================================================== -->
 <section id="titlebar">
@@ -98,16 +100,15 @@
                 
                  <li>
                   <article class="span3 project" data-tags="Nacional,architecture">     
-                    <a href="img/gallery/04.png">
-                      <div class="square-1">
+                    <div class="square-1">
                         <div class="img-container">
-                          <img src="img/gallery/04.png" alt="">
-                          <div class="img-bg-icon"></div>
+                          <a class="thumbnail" href="#" data-image-id="" data-toggle="modal" data-title="Im so nice" data-caption="And if there is money left, my girlfriend will receive this car" data-image="http://upload.wikimedia.org/wikipedia/commons/7/78/1997_Fiat_Panda.JPG" data-target="#image-gallery">
+                            <img src="img/gallery/04.png" id="myImg" alt="asd">
+                          </a>
                         </div>
                         <h3> I JCIB </h3>
                           I Jornada Chilena de Ingeniería Biomédica 2007, Valparaíso, Chile 
                       </div>
-                    </a>
                   </article>
                 </li> 
 
@@ -157,16 +158,59 @@
                 </li>  
                 
               </ul> 
+
+
+              <!-- Modal -->
+<div class="modal fade" id="image-gallery" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <img id="image-gallery-image" class="img-responsive" src="img/gallery/04.png">
+            </div>
+            <div class="modal-footer">
+
+                <div class="col-md-8 text-justify" id="image-gallery-caption">
+                    I Jornada Chilena de Ingeniería Biomédica 2007, Valparaíso, Chile 
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
             </section>   
-                          
+
+
   <!-- Content End -->
-  </div> </div> </div> </div> </div> </div> </div>
+  </div> </div> </div> </div> </div> 
+
+
   
   <!-- Footer -->
   <div ng-include src="'footer.html'"></div>
   <!-- Footer End -->
 
   <!-- JavaScripts -->
+
+  <script type="text/javascript">
+    // Get the modal
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var imgl = document.getElementById('imgLnk');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("image-gallery-caption");
+imgl.onclick = function(){
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+}
+
+  </script>
+
+    
   <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script> 
   <script type="text/javascript" src="js/bootstrap.min.js"></script>  
   <script type="text/javascript" src="js/functions.js"></script>
